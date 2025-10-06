@@ -9,12 +9,6 @@
         body{
             padding:0%;
             margin: 0%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            justify-items: center;
-            height: 100vh;
             background-color: antiquewhite;
             background-image: url('Poster streetwear, feel the power.jpeg');
             background-size: cover;
@@ -29,9 +23,21 @@
         background-position: 1000px 0; /* moves the image horizontally */
     }
 }
+.main{
+                display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            justify-items: center;
+            height: 100vh;
+
+}
         img{
-            height: 300px;
+            height: 200px;
             border-radius: 70%;
+            border: 5px solid black;
+            cursor: pointer;
+            box-shadow: 0px 10px 20px rgb(0, 80, 70);
         }
         a{
             padding: 10px;
@@ -39,7 +45,14 @@
             text-decoration: none;
             color: aliceblue;
             border-radius: 30px;
+            box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
         }
+        a:hover{
+            box-shadow: 0px 15px 16px rgba(0, 0, 0, 0.7);
+            transform: scale(1.05);
+        }
+
         .njan{
             padding: 50px;
             background-color: hsl(0, 0, 0);
@@ -55,14 +68,15 @@
             box-shadow: 0px 15px 16px rgba(0, 0, 0, 0.7);
             transform: scale(1.05);
         }
-
     </style>
 </head>
 <body>
+    <div class="main">
     <div class="njan">
         <div></div>
     <img src="2fdb8b44-a9e9-48d5-a599-8e3e023cb4df.jpeg" alt="profile pic">
-    <a href="main.page">Click Here</a>
+    <a href="main.html">Click Here</a>
+    </div>
     </div>
 </body>
 </html>

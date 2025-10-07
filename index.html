@@ -5,14 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome Guys!</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+label {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 5px rgba(255,255,255,0.2);
+}
+
+input {
+  width: 250px;
+  padding: 10px 15px;
+  border-radius: 12px;
+  border: 1.5px solid black;
+  background-color: lightgray;
+  color: black;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+input::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+
+input:focus {
+  background: rgba(255,255,255,0.2);
+  border-color: #00ff99;
+  box-shadow: 0 0 15px rgba(0,255,153,0.5);
+  transform: scale(1.02);
+}
+.njan div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+    </style>
 </head>
 <body>
     <div class="main">
     <div class="njan">
         <div></div>
     <img src="2fdb8b44-a9e9-48d5-a599-8e3e023cb4df.jpeg" alt="profile pic">
+    <div>
+            <label> Name</label><input type="text" placeholder="                Enter your name" required>
+    </div>
     <a href="main.html">Click Here</a>
     </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

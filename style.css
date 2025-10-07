@@ -2,7 +2,7 @@
             padding:0%;
             margin: 0%;
             background-color: antiquewhite;
-            background-image: url('Poster streetwear, feel the power.jpeg');
+            background-image: url('156855a0-cb46-41b9-9604-abb675f788f8.jpeg');
             background-size: cover;
             background-repeat: repeat-x;
             animation: slideBg 20s linear infinite;
@@ -48,8 +48,11 @@
         .njan{
             padding: 50px;
             background-color: hsl(0, 0, 0);
+            background-image: url('Poster streetwear, feel the power.jpeg');
+            background-size: cover;
             display: flex;
             flex-direction: column;
+            border-radius: 20px;
             align-items: center;
             gap: 20px;
             border: 2px solid black;
